@@ -82,7 +82,7 @@ export default function PropertyMap({ properties }: PropertyMapProps) {
 
                                     <Link
                                         href={`/property/${property.gnaf_pid}`}
-                                        className="flex items-center justify-center gap-1 w-full bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-medium py-2 px-3 rounded transition-colors"
+                                        className="flex items-center justify-center gap-1 w-full bg-white hover:bg-slate-50 text-emerald-600 border border-emerald-200 text-xs font-medium py-2 px-3 rounded transition-colors"
                                     >
                                         View Insights <ArrowRight className="w-3 h-3" />
                                     </Link>
